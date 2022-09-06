@@ -107,3 +107,6 @@
 - Introduce lombok to reduce boilerplate (it wasn't used in this project as sometimes IDEs need additional configuration
   to allow annotation processing, so it wasn't used for easier testing)
 - Use big decimal instead of double to increase accuracy
+
+
+*Example CSV files are located in `src/test/test files`
