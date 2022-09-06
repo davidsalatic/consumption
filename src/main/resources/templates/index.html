@@ -1,0 +1,17 @@
+<div style="border: solid 1pt; margin-bottom: 20px">
+    <h1>Upload 'Profiles and fractions'</h1>
+    <p>To insert profiles and fractions, choose a .csv file and click the 'Process' button</p>
+    <form method="POST" th:action="@{/csv/upload-profiles-and-fractions}" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <button type="submit">Process</button>
+    </form>
+</div>
+
+<div style="border: solid 1pt;">
+    <h1>Upload 'Meter readings'</h1>
+    <p>To insert meter readings, choose a .csv file and click the 'Process' button</p>
+    <form method="POST" th:action="@{/csv/upload-meter-readings}" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <button type="submit">Process</button>
+    </form>
+</div>
